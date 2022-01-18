@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DependenciaServicios.TextToSpeechDemo">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtText" Placeholder="Type here!"></Entry>
+            <Button Text="Speak" Clicked="Button_Clicked"/>
+            <Button Text="Good morning" Clicked="Button_Clicked_1"></Button>
+            <Button Text="Get Battery" Clicked="Button_Clicked_2"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
